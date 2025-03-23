@@ -1,0 +1,94 @@
+<body>
+
+  <title>Sing In Form-Adhikary Medicine Hall</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: transparent;
+            padding: 1rem 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+    
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+    
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+    
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+    
+        .brand {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+        /* Add padding to body to account for fixed nav */
+        body {
+            padding-top: 70px;
+        }
+    </style>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="brand">Adhikary Medicine Hall</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Sing In</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacs.html">Contacts</a></li>
+
+            </nav>
+
+            <section class="wrapper">
+                <h1>Login</h1>
+                <form>
+                  <div class="input-box">
+                    <input type="text" placeholder="Username" required >
+                    <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                  </div>
+                  <div class="remember-forgot">
+                    <label><input type="checkbox"> Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="login-btn">Login</button>
+                  <div class="register-link">
+                    <p>Don't Have An Account? <a href="#">Register</a></p>
+                  </div>
+                </form>
+              </section>
+
+
+
+</div>
+</form>
+</div>
+</body>

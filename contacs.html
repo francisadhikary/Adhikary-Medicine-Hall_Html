@@ -1,0 +1,351 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+
+    <!-- Save this as contact.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Adhikary Medicine Hall</title>
+    <style>
+        /* Add to existing styles */
+        .contact-section {
+            padding: 80px 20px;
+            min-height: calc(100vh - 200px);
+        }
+
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .contact-info {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            color: #2a3f5f;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .contact-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-icon {
+            font-size: 1.5rem;
+            width: 30px;
+            text-align: center;
+        }
+
+        .business-hours {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <!-- Keep the same navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="brand">Adhikary Medicine Hall</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Sing In</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Page Content -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Visit Us</h3>
+                        <p>123 Mohammadpur<br>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div>
+                        <h3>Call Us</h3>
+                        <p>+880 17823 98950<br>+880 17623 88960</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h3>Email Us</h3>
+                        <p>contact@adhikarymeds.com<br>support@adhikarymeds.com</p>
+                    </div>
+                </div>
+                <div class="business-hours">
+                    <h3>Business Hours</h3>
+                    <p>Open 24/7<br>Emergency Services Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keep the same footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- ... your existing footer content ... -->
+        </div>
+        <div class="footer-bottom">
+            <p style="color: white;">© 2023 Adhikary Medicine Hall. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+    
+<link rel="stylesheet" href="style.css">
+<style>
+    /* Add to existing styles */
+    .contact-section {
+        padding: 100px 20px 60px;
+        min-height: calc(100vh - 160px);
+        background: linear-gradient(rgba(249, 249, 255, 0.9), rgba(249, 249, 255, 0.9)),
+                    url('pharmacy-bg.jpg') center/cover;
+    }
+
+    .contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+        backdrop-filter: blur(5px);
+    }
+
+    .contact-info h2 {
+        color: #2a3f5f;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-align: center;
+        position: relative;
+    }
+
+    .contact-info h2::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: #4CAF50;
+        margin: 15px auto;
+    }
+
+    .contact-item {
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        background: rgba(242, 242, 242, 0.3);
+    }
+
+    .contact-item:hover {
+        transform: translateX(10px);
+        background: rgba(76, 175, 80, 0.05);
+    }
+
+    .contact-icon {
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #4CAF50;
+        color: white;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .contact-item h3 {
+        color: #2a3f5f;
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+    }
+
+    .contact-item p {
+        color: #666;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    .business-hours {
+        margin-top: 40px;
+        padding-top: 30px;
+        border-top: 2px solid #eee;
+        text-align: center;
+    }
+
+    .business-hours h3 {
+        color: #2a3f5f;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .business-hours p {
+        color: #4CAF50;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 768px) {
+        .contact-info {
+            padding: 25px;
+        }
+        
+        .contact-info h2 {
+            font-size: 2rem;
+        }
+        
+        .contact-item {
+            flex-direction: column;
+            text-align: center;
+            gap: 15px;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            font-size: 1.5rem;
+        }
+    }
+</style>
+<style>
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: transparent;
+        padding: 1rem 0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        border: none;
+        outline: none;
+    }
+
+    .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #ffd700;
+    }
+
+    .brand {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    /* Add padding to body to account for fixed nav */
+    body {
+        padding-top: 70px;
+    }
+</style>
+
+<nav>
+    <div class="nav-container">
+        <div class="brand">Adhikary Medicine Hall</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="order.html">Sing In</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacs.html">Contacts</a></li>
+        </ul>
+    </div>
+</nav>
+<h1></h1>
+<br>
+<br>
+<h1></h1>
+    
+
+ 
+
+<title>Adhikary Medicine Hall</title>
+
+<h1></h1>
+<br><br>
+<br><br>
+<h1></h1>
+
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4 style="color: white;">Contact Us</h4>
+            <p style="color: white;">📞 +880 17823 98950</p>
+            <p style="color: white;">📧 contact@adhikarymeds.com</p>
+            <p style="color: white;">📍 123 Mohammadpur, Dhaka, BD</p>
+        </div>
+        <div class="footer-section">
+            <h4 style="color: white;">Quick Links</h4>
+            <a href="#about" style="color: white;">About Us</a>
+            <a href="#services" style="color: white;">Services</a>
+            <a href="#prescriptions" style="color: white;">Prescriptions</a>
+        </div>
+        <div class="footer-section">
+            <h4 style="color: white;">Follow Us</h4>
+            <div class="social-links">
+                <a href="#facebook" style="color: white;">Facebook</a>
+                <a href="#twitter" style="color: white;">Twitter</a>
+                <a href="#instagram" style="color: white;">Instagram</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p style="color: white;">© 2023 Adhikary Medicine Hall. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
